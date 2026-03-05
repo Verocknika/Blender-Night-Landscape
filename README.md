@@ -1,4 +1,6 @@
 # Night Landscape – Blender Semester Project
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/72904f8a-bc21-4efc-9682-43526dc11d6a" />
+
 
 ## Project Description
 Technical documentation and 3D scene assets created for the **Modern Computer Graphics** course.  
