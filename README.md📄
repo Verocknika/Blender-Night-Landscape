@@ -1,53 +1,40 @@
-# Night Landscape – Blender Semester Project
+# **Night Landscape – Blender Semester Project**
 
-Technical documentation and 3D scene assets created for the **Modern Computer Graphics** course.
-This project focuses on a stylized low-poly visualization of a nighttime environment, emphasizing atmospheric lighting and procedural shading.
+## **Project Description**
+This project contains technical documentation and 3D scene assets created for the **Modern Computer Graphics** course.  
+It focuses on a stylized low‑poly visualization of a nighttime environment with emphasis on atmospheric lighting and procedural shading.
+
+[Project documentation ](VM_Blend_projekt.pdf)
+---
+
+## **Technical Workflow**
+
+### **Object Modeling**
+- **Low‑poly vegetation** — spruce trees modeled from cylinders using `Loop Cut` and `Scale`, keeping sharp geometry for a stylized look  
+- **Organic shapes** — bird character modeled from a cube using the `Mirror` modifier and optimized with `Decimate`  
+- **Terrain** — island created from a plane using the `Knife` tool and deformed with `Mesh Transform → Randomize`  
+- **Environmental assets** — mushrooms using `Subdivision Surface` and stones shaped with `Displace` and a Voronoi texture  
+
+### **Shading and Materials**
+- **Starry sky** — procedural world shader using `Noise Texture` and `ColorRamp`  
+- **Luminescence** — `Emission Shader` applied to the moon and glowing mushrooms  
+- **Procedural textures** — extensive use of `Voronoi` for natural variation  
+
+### **Lighting and Post‑processing**
+- **Atmospheric lighting** — colored `Area Lights` for soft illumination and depth  
+- **Compositing** — final adjustments using the `Glare` node in *Fog Glow* mode  
 
 ---
 
-## 📄 Full Documentation
-
-A detailed technical report (24 pages) covering every step of production from initial modeling to final compositing.
-
-👉 [Open Project Documentation (PDF)](./VM_Blend_projekt.pdf)
-
----
-
-## 🛠 Technical Workflow
-
-### Object Modeling
-
-* **Low-poly Vegetation:** Spruce trees modeled from cylinders using `Loop Cut` and `Scale` tools, maintaining sharp geometry to fit the overall visual style.
-
-* **Organic Shapes:** A bird character modeled from a base cube using the `Mirror` modifier for symmetry and the `Decimate` modifier for mesh optimization.
-
-* **Terrain:** An island generated from a `Plane` using the `Knife` tool and deformed via `Mesh Transform → Randomize` to create an irregular relief.
-
-* **Environmental Assets:** Mushrooms created with `Subdivision Surface` and stones deformed using the `Displace` modifier with a Voronoi texture.
-
-### Shading and Materials
-
-* **Starry Sky:** A procedural World Shader utilizing `Noise Texture` and `ColorRamp` to generate star patterns on a dark background.
-
-* **Luminescence:** Implementation of `Emission Shaders` on key objects (Moon, glowing mushrooms) to simulate ambient light in a dark environment.
-
-* **Procedural Textures:** Extensive use of `Voronoi` textures to add visual variability to low-poly surfaces and simulate natural materials.
-
-### Lighting and Post-processing
-
-* **Atmospheric Light:** Integration of colored `Area Lights` to provide soft, even illumination and define spatial depth.
-
-* **Compositing:** Final adjustments using the `Glare` node in `Fog Glow` mode to achieve soft light dispersion around luminous sources.
+## **Project Parameters**
+- **Software:** Blender  
+- **Techniques:** low‑poly modeling, procedural shading, compositing  
+- **Author:** Veronika Michálková  
+- **Institution:** Tomas Bata University in Zlín – Faculty of Applied Informatics  
 
 ---
 
-## ⚙️ Project Parameters
-
-* **Software:** Blender
-* **Techniques:** Low-poly modeling, procedural shading, compositing
-* **Author:** Veronika Michálková
-* **Institution:** Tomas Bata University in Zlín – Faculty of Applied Informatics
+This README was generated with the assistance of AI.
 
 ---
 
-*This README was generated based on the project documentation.*
